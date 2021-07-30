@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+var multiplicador = 1;
+var numero = parseInt(prompt("Qual é o número que você quer multiplicar?"))
+var multMax = parseInt(prompt("Qual o valor máximo para multiplicar"))
+while(multiplicador <= multMax) {
+
+    mostra(numero * multiplicador);
+    multiplicador++;
+}
+
+
+</script>
